@@ -1,0 +1,7 @@
+<launch>
+	<!-- We resume the logic in empty_world.launch, changing only the name of the world-->
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+		<arg name = "world_name" value="/home/jarvis/catkin_ws/src/ur3_gazebo/worlds/test.world"/>
+		<!-- More defaults below this -->
+	</include>
+</launch>

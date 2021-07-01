@@ -1,0 +1,7 @@
+Where to add the models 
+
+Usually to .gazebo/model OR check out the path in the Gazebo App
+
+Also if you want to call the model 
+
+You can just use <uri>model://Model_name</uri>
